@@ -1,0 +1,44 @@
+ figure.rend=inline	230
+ head.rend=h3	725
+ hi.rend=h4	42
+ hi.rend=h5	98
+ hi.rend=i	4880
+ hi.rend=sub	5
+ hi.rend=sup	948
+add.place=margin	10
+body..	725
+div.type=address	86
+div.type=closer	541
+div.type=opener	544
+div.type=para	40
+div.type=postscriptum	56
+figure..	308
+formula.id=AMnLfnnnaFnnn	7
+formula.id=AMnLfnnnbFnnn	21
+formula.id=AMnLfnnncFnnn	6
+formula.id=AMnLfnnndFnnn	18
+formula.id=AMnLnnnFnnn	6096
+formula.id=AMnLnnnbisFnnn	52
+formula.notation=TeX	219
+graphic.url=AMnLnnnFnnn.gif	218
+graphic.url=AMnLnnnbisFnnn.gif	1
+graphic.url=ATn-na.gif	5
+graphic.url=ATn-nb.gif	2
+graphic.url=ATn-nn.gif	1
+graphic.url=ATn-nna.gif	43
+graphic.url=ATn-nnb.gif	5
+graphic.url=ATn-nnd.gif	1
+graphic.url=ATn-nnna.gif	226
+graphic.url=ATn-nnnb.gif	24
+graphic.url=ATn-nnnc.gif	2
+graphic.url=ATnn-nnna.gif	1
+graphic.url=cossicn.png	4
+graphic.url=musique.png	3
+graphic.url=propto.png	2
+lb..	2900
+p..	7692
+pb.ed=AM	2884
+pb.n=n-n	72
+pb.n=n-nn	721
+pb.n=n-nnn	2091
+pb.type=in-word	187

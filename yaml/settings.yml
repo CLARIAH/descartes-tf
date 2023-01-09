@@ -1,0 +1,94 @@
+sourceFile: JapAM-EJB-DR.xml
+versionTf: 0.1
+
+generic:
+  author: René Descartes
+  contributors: >-
+    Erik-Jan Bos;
+    Katsuzo Murakami (University of Tokyo);
+    Meguru Sasaki (École normale superieure d'Hokkaido);
+    Takehumi Tokoro (University of Chyuo)
+  institute: KNAW/Huygens Amsterdam
+  language: nld
+  converters: Dirk Roorda (Text-Fabric)
+  sourceFormat: TEI
+  descriptionTf: Critical edition with various variants
+
+slotType: word
+
+otext:
+    "fmt:text-orig-full": "{trans}{punc}"
+    "sectionFeatures": "n,id,n"
+    "sectionTypes": "volume,letter,p"
+
+intFeatures:
+  - n
+
+featureMeta:
+  alt_date:
+    description: >-
+      alternative date of a letter
+  alt_id:
+    description: >-
+      alternative ids of a letter, comma separated
+  cert:
+    description: >-
+      certainty of something
+    values: >-
+      senderloc:low recipientloc:high
+  date:
+    description: >-
+      date of a letter
+  id:
+    description: >-
+      id of a letter
+  intermediary:
+    description: >-
+      person involved in the transmission of the letter from sender to receiver
+  isitalic:
+    description: >-
+      whether the word is in italic
+  ismargin:
+    description: >-
+      whether the word is in the margin
+  issub:
+    description: >-
+      whether the word is in subscript
+  issup:
+    description: >-
+      whether the word is in supscript
+  language:
+    description: >-
+      language of a letter
+  level:
+    description: >-
+      level of a paragraph when it acts like a heading
+  n: 
+    description: number of whatever element
+  notation:
+    description: formalism used (TeX)
+  punc:
+    description: >-
+      nonword chars after a word 
+  recipient: 
+    description: recipient of a letter
+  recipientloc: 
+    description: location from where a letter was received
+  resp:
+    description: >-
+      person responsible for something
+    values: >-
+      recipientloc:EJB senderloc:EJB
+  sender: 
+    description: sender of a letter
+  senderloc: 
+    description: location from where a letter was sent
+  trans:
+    description: >-
+      transcription of a word 
+  typ:
+    description: >-
+      type of a slot or p; "empty" means: deliberately empty slot; "head" means: header of letter; no other values
+  url:
+    description: >-
+      url of a graphic node
