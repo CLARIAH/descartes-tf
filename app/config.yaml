@@ -1,0 +1,28 @@
+apiVersion: 3
+docs:
+  docBase: '{docRoot}/{repo}'
+  docExt: ''
+  docPage: ''
+  docRoot: https://{org}.github.io
+  featurePage: 0_home
+interfaceDefaults:
+  showGraphics: true
+  showMath: true
+provenanceSpec:
+  corpus: Descartes = Descartes, all letters
+  graphicsRelative: source/illustrations
+  version: 0.9
+  webBase: http://emlo-portal.bodleian.ox.ac.uk/collections/?catalogue=rene-descartes
+  webHint: See how this corpus is included in the Bodleian catalog
+typeDisplay:
+  volume:
+    featuresBare: n
+  letter:
+    featuresBare: id
+  p:
+    featuresBare: n
+  figure:
+    graphics: true
+  formula:
+    math: true
+writing: hbo

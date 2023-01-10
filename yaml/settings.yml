@@ -1,5 +1,5 @@
 sourceFile: JapAM-EJB-DR.xml
-versionTf: 0.1
+versionTf: 0.9
 
 generic:
   author: René Descartes
@@ -88,7 +88,7 @@ featureMeta:
       transcription of a word 
   typ:
     description: >-
-      type of a slot or p; "empty" means: deliberately empty slot; "head" means: header of letter; no other values
+      kind of a node; "empty" means: deliberately empty slot; "head" means: header of letter; "symbol" or "illustration" is the kind of a figure
   url:
     description: >-
       url of a graphic node

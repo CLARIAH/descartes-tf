@@ -52,6 +52,7 @@ SOURCE_FILE = "JapAM-EJB-DR.xml"
 
 REPO_DIR = f"{BASE}/{ORG}/{REPO}"
 SOURCE_DIR = f"{REPO_DIR}/source"
+GRAPHICS_DIR = f"{SOURCE_DIR}/illustrations"
 YAML_DIR = f"{REPO_DIR}/yaml"
 LOCAL_DIR = f"{REPO_DIR}/_local"
 TF_DIR = f"{REPO_DIR}/tf"
@@ -108,6 +109,8 @@ def showDiags(diags, kind, batch=20):
 
 CORRECTIONS = (
     (40245, "Vir clarissime,", """<div type="opener"><p>∞</p></div>"""),
+    (24488, """<figure rend="inline">""", """<figure>"""),
+    (24518, """<figure rend="inline">""", """<figure>"""),
 )
 
 
@@ -157,7 +160,6 @@ TEXT_ATTRIBUTES = """
     italic
     sub
     sup
-    inline
     margin
 """.strip().split()
 
@@ -420,6 +422,11 @@ def walkNode(cv, cur, node):
                     del atts["rend"]
         textAttribute = "italic" if textAttribute == "i" else textAttribute
         if textAttribute:
+            if textAttribute == "inline":
+                cur["figureType"] = "inline"
+                textAttribute = None
+                del atts["rend"]
+        if textAttribute:
             if textAttribute not in TEXT_ATTRIBUTES:
                 addError(f"unrecognized rend = `{textAttribute}`", cur)
         if textAttribute is not None:
@@ -484,10 +491,24 @@ def walkNode(cv, cur, node):
     elif tag == GRAPHIC:
         if FIGURE in cur and len(cur[FIGURE]) > 0:
             figureNode = cur[FIGURE][-1]
-            cv.feature(figureNode, **featAtts)
-            linkIfEmpty(cv, cur, figureNode, "figure", dontwarn=True)
+            isInline = cur.get("figureType", None) == "inline"
+            url = featAtts["url"]
+            isPng = url.endswith(".png")
+
+            if isInline and not isPng:
+                addWarning(f"Graphic {url} is inline but not png", cur)
+            elif not isInline and isPng:
+                addWarning(f"Graphic {url} is not inline but png", cur)
+            if not os.path.isfile(f"{GRAPHICS_DIR}/{url}"):
+                addWarning(f"No graphic {url}", cur)
+            kind = "symbol" if isInline else "illustration"
+            cv.feature(figureNode, typ=kind, **featAtts)
+            slot = cv.slot()
+            cv.feature(slot, trans=url, punc=" ")
+            cur[WORD] = slot
         else:
             addWarning("graphic outside figure", cur)
+        cur["figureType"] = None
 
     elif tag == ADD:
         pass
