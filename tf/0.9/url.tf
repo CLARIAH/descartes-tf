@@ -9,7 +9,7 @@
 @sourceFormat=TEI
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2023-01-10T14:11:12Z
+@dateWritten=2023-01-11T16:43:03Z
 
 682928	AT10-152a.gif
 cossic2.png

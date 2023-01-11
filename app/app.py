@@ -16,7 +16,7 @@ class TfApp(App):
     def getGraphics(app, isPretty, n, nType, outer):
         result = ""
 
-        if outer:
+        if True:
             theGraphics = app.image.getImages(
                 app,
                 n,

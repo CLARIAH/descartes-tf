@@ -9,7 +9,7 @@
 @sourceFormat=TEI
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2023-01-10T14:11:11Z
+@dateWritten=2023-01-11T16:43:02Z
 
 369	1
 1162	1

@@ -149,6 +149,7 @@ def getImagery(app, silent, checkout=""):
     graphicsRelative = aContext.graphicsRelative
 
     (imageRelease, imageCommit, imageLocal, imageBase, imageDir) = checkoutRepo(
+        app.backend,
         app._browse,
         org=org,
         repo=repo,

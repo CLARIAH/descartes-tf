@@ -364,13 +364,14 @@ def director(cv):
     cur["stop"] = False
     volumeNode = cv.node(VOLUME)
     volNum = 1
+    print(f"volume {volNum:>2}")
     cv.feature(volumeNode, n=volNum)
     cur[VOLUME] = volumeNode
     cur["volNum"] = volNum
     cur["newVolume"] = None
     walkNode(cv, cur, root)
 
-    print("\rdone" + " " * 70)
+    print("done")
 
     # delete meta data of unused features
 
@@ -445,6 +446,8 @@ def walkNode(cv, cur, node):
                 cv.terminate(curPage)
             if N in atts:
                 (volNum, pageNum) = atts[N].split("-", 1)
+                volNum = int(volNum)
+                pageNum = int(pageNum)
                 if cur.get("volNum", None) != volNum:
                     cur["newVolume"] = volNum
                 if PAGE in cur:
@@ -504,7 +507,7 @@ def walkNode(cv, cur, node):
             kind = "symbol" if isInline else "illustration"
             cv.feature(figureNode, typ=kind, **featAtts)
             slot = cv.slot()
-            cv.feature(slot, trans=url, punc=" ")
+            cv.feature(slot, typ="empty", trans="", punc=" ")
             cur[WORD] = slot
         else:
             addWarning("graphic outside figure", cur)
@@ -574,6 +577,7 @@ def walkNode(cv, cur, node):
             cur["volNum"] = volNum
             cv.feature(cur[VOLUME], n=volNum)
             cur["newVolume"] = None
+            print(f"volume {volNum:>2}")
 
     elif tag == TEI_HEADER:
         meta = {}
@@ -653,6 +657,8 @@ def addText(cv, cur, text, after, inFormula):
         return
 
     if inFormula:
+        formulaNode = cur[FORMULA][-1]
+        cv.feature(formulaNode, notation=text.strip("$"))
         makeSlot(cv, cur, typ="formula", trans=text, punc=" ")
         return
 

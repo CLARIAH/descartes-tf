@@ -9,7 +9,7 @@
 @sourceFormat=TEI
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2023-01-10T14:11:11Z
+@dateWritten=2023-01-11T16:43:02Z
 
 697414	1
 2
@@ -11334,7 +11334,6 @@
 323
 324
 708792	1
-1
 2
 3
 4

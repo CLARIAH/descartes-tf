@@ -10,5 +10,5 @@
 @sectionTypes=volume,letter,p
 @sourceFormat=TEI
 @writtenBy=Text-Fabric
-@dateWritten=2023-01-10T14:11:12Z
+@dateWritten=2023-01-11T16:43:03Z
 

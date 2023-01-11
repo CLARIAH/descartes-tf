@@ -10,7 +10,7 @@
 @valueType=str
 @values=recipientloc:EJB senderloc:EJB
 @writtenBy=Text-Fabric
-@dateWritten=2023-01-10T14:11:12Z
+@dateWritten=2023-01-11T16:43:03Z
 
 696152	senderloc:resp=EJB
 696157	recipientloc:resp=EJB,senderloc:resp=EJB

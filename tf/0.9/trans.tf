@@ -9,7 +9,7 @@
 @sourceFormat=TEI
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2023-01-10T14:11:12Z
+@dateWritten=2023-01-11T16:43:03Z
 
 
 1
@@ -193,7 +193,7 @@ in
 unicâ
 voce
 fieri
-AT10-152a.gif
+
 
 per
 consonantias
@@ -566,18 +566,18 @@ communium
 nempe
 inter
 1
-cossic2.png
+
 
 et
 O
-cossic1.png
+
 
 
 ON
 
 vel
 O
-cossic1.png
+
 
 −
 ON
@@ -585,7 +585,7 @@ ON
 vel
 denique
 ON − O
-cossic1.png
+
 
 Aliud
 est
@@ -8326,7 +8326,7 @@ mais
 vous
 voyez
 à
-AT1-27a.gif
+
 
 proportion
 des
@@ -8989,7 +8989,7 @@ mais
 qui
 doit
 être
-AT1-33a.gif
+
 
 ferme
 avec
@@ -9315,7 +9315,7 @@ vous
 lui
 donnassiez
 exac
-AT1-35a.gif
+
 
 tement
 tout
@@ -10070,7 +10070,7 @@ me
 tirer
 d
 où
-AT1-39a.gif
+
 
 je
 suis
@@ -10449,7 +10449,7 @@ peuvent
 être
 taillées
 par
-AT1-40a.gif
+
 
 les
 deux
@@ -10675,7 +10675,7 @@ mouvement
 libre
 au
 travers
-AT1-40b.gif
+
 
 de
 l
@@ -11108,7 +11108,7 @@ figures
 de
 la
 roue
-AT1-42a.gif
+
 
 Q
 
@@ -11856,7 +11856,7 @@ et
 IK
 
 tombe
-AT1-44a.gif
+
 
 E
 
@@ -12611,7 +12611,7 @@ et
 le
 verre
 tourneront
-AT1-46a.gif
+
 
 diversement
 et
@@ -12944,7 +12944,7 @@ comme
 est
 la
 figure
-AT1-48a.gif
+
 
 ci
 jointe
@@ -13031,7 +13031,7 @@ seulement
 Néanmoins
 elle
 mangera
-AT1-49a.gif
+
 
 toujours
 mieux
@@ -13147,7 +13147,7 @@ par
 conséquent
 plus
 en
-AT1-49b.gif
+
 
 faisant
 un
@@ -14124,7 +14124,7 @@ ne
 les
 avais
 laissées
-AT1-54a.gif
+
 
 que
 pour
@@ -14801,7 +14801,7 @@ pas
 de
 plus
 de
-AT1-55a.gif
+
 
 deux
 ou
@@ -15158,7 +15158,7 @@ est
 que
 la
 pièce
-AT1-57a.gif
+
 
 LD
 
@@ -15306,7 +15306,7 @@ doivent
 toutes
 se
 rencontrer
-AT1-58a.gif
+
 
 en
 un
@@ -15490,7 +15490,7 @@ seule
 ligne
 non
 plus
-AT1-59a.gif
+
 
 que
 celle
@@ -15710,7 +15710,7 @@ Mais
 il
 faut
 remarquer
-AT1-59b.gif
+
 
 que
 les
@@ -16618,7 +16618,7 @@ qu
 il
 puisse
 être
-AT1-62a.gif
+
 
 pourvu
 que
@@ -16918,7 +16918,7 @@ voudrez
 marquez
 sur
 la
-AT1-62b.gif
+
 
 ligne
 AC
@@ -17691,7 +17691,7 @@ eussiez
 fort
 aisément
 trouvé
-AT1-65a.gif
+
 
 de
 vous
@@ -17914,7 +17914,7 @@ il
 faudra
 tailler
 un
-AT1-67a.gif
+
 
 modèle
 de
@@ -19130,7 +19130,7 @@ novus
 ei
 accrescit
 propter
-AT1-72a.gif
+
 
 gravitatem
 quae
@@ -19425,7 +19425,7 @@ vous
 me
 demandez
 la
-AT1-73a.gif
+
 
 justesse
 je
@@ -19600,7 +19600,7 @@ sera
 4
 au
 troisième
-AT1-74a.gif
+
 
 et
 ainsi
@@ -23935,7 +23935,7 @@ suspendu
 en
 B
 
-AT1-95a.gif
+
 
 lequel
 va
@@ -24066,7 +24066,7 @@ fait
 retourner
 la
 corde
-AT1-96a.gif
+
 
 est
 d
@@ -25123,7 +25123,7 @@ aura
 fait
 trois
 justement
-AT1-101a.gif
+
 
 Ainsi
 donc
@@ -29469,7 +29469,7 @@ elle
 varie
 en
 une
-AT1-120a.gif
+
 
 infinité
 de
@@ -29789,7 +29789,7 @@ CE
 
 est
 beaucoup
-AT1-122a.gif
+
 
 plus
 grand
@@ -32527,7 +32527,7 @@ modifie
 en
 telle
 sorte
-AT1-134a.gif
+
 
 Soit
 la
@@ -34379,7 +34379,7 @@ cette
 proportion
 varie
 selon
-AT1-141a.gif
+
 
 que
 le
@@ -34952,7 +34952,7 @@ capacité
 des
 meilleures
 oreilles
-AT1-143a.gif
+
 La
 corde
 AB
@@ -43078,7 +43078,7 @@ devrait
 venir
 que
 jusques
-AT1-180a.gif
+
 
 à
 la
@@ -48922,7 +48922,7 @@ cette
 laine
 et
 pensez
-AT1-205a.gif
+
 
 que
 ce
@@ -52935,7 +52935,7 @@ un
 son
 d
 une
-AT1-225a.gif
+
 
 octave
 plus
@@ -53420,7 +53420,7 @@ les
 moments
 dont
 je
-AT1-227a.gif
+
 
 parlais
 en
@@ -55486,7 +55486,7 @@ environ
 de
 cette
 figure
-AT1-237a.gif
+
 
 sa
 grandeur
@@ -55598,7 +55598,7 @@ du
 monde
 puis
 verser
-AT1-238a.gif
+
 
 de
 l
@@ -55838,7 +55838,7 @@ est
 cd
 
 laquelle
-AT1-238b.gif
+
 
 étant
 trouvée
@@ -56939,7 +56939,7 @@ il
 n
 est
 dans
-AT1-246a.gif
+
 
 l
 air
@@ -57343,7 +57343,7 @@ air
 ni
 l
 attouchement
-AT1-246b.gif
+
 
 du
 poids
@@ -58809,7 +58809,7 @@ crois
 point
 que
 le
-AT1-255a.gif
+
 
 son
 se
@@ -60263,7 +60263,7 @@ travaille
 à
 mettre
 en
-AT1-262a.gif
+
 
 exécution
 l
@@ -61034,7 +61034,7 @@ envoyer
 elles
 ne
 conte
-AT1-267a.gif
+
 
 naient
 rien
@@ -62024,7 +62024,7 @@ boutade
 je
 ne
 laisse
-AT1-270a.gif
+
 
 rai
 pas
@@ -62696,7 +62696,7 @@ trouver
 la
 quantité
 des
-AT1-276a.gif
+
 
 trois
 côtés
@@ -65396,7 +65396,7 @@ soutiennent
 la
 pièce
 par
-AT1-293a.gif
+
 
 le
 moyen
@@ -65905,7 +65905,7 @@ par
 après
 qu
 ils
-AT1-295a.gif
+
 
 y
 prennent
@@ -66066,7 +66066,7 @@ qu
 elle
 n
 est
-AT1-296a.gif
+
 
 point
 davantage
@@ -66582,7 +66582,7 @@ qu
 elle
 ne
 soit
-AT1-298a.gif
+
 
 du
 tout
@@ -66656,7 +66656,7 @@ lignes
 ce
 peuvent
 être
-AT1-298b.gif
+
 Je
 serai
 bien
@@ -66984,7 +66984,7 @@ circulaires
 Ensuite
 de
 quoi
-AT1-301a.gif
+
 
 pour
 savoir
@@ -67607,7 +67607,7 @@ jusques
 à
 B
 
-AT1-305a.gif
+
 
 elle
 n
@@ -68547,7 +68547,7 @@ Sol
 B
 
 in
-AT1-310a.gif
+
 
 quo
 Terra
@@ -68933,7 +68933,7 @@ Terra
 in
 eâdem
 lineâ
-AT1-311a.gif
+
 
 rectâ
 et
@@ -71063,7 +71063,7 @@ l
 air
 d
 alentour
-AT1-318a.gif
+
 
 D
 
@@ -85613,7 +85613,7 @@ raison
 de
 la
 réflexion
-AT1-358a.gif
+
 
 page
 15
@@ -85961,7 +85961,7 @@ corps
 poli
 CE
 
-AT1-358b.gif
+
 
 n
 empêche
@@ -95578,7 +95578,7 @@ clare
 demonstratum
 cur
 pila
-AT1-405a.gif
+
 
 impulsa
 ab
@@ -97129,7 +97129,7 @@ in
 vecte
 tanto
 velocius
-AT4-685a.gif
+
 
 moveri
 quàm
@@ -97270,7 +97270,7 @@ DE
 
 centuplum
 arcûs
-AT4-694a.gif
+
 
 CF
 
@@ -97579,7 +97579,7 @@ reciprocâ
 linearum
 perpendicularium
 quae
-AT4-696a.gif
+
 
 ducuntur
 à
@@ -101538,7 +101538,7 @@ B
 
 impulsam
 debere
-AT1-418a.gif
+
 
 eodem
 instanti
@@ -105638,7 +105638,7 @@ soutenir
 cent
 livres
 à
-AT1-437a.gif
+
 
 cause
 que
@@ -106092,7 +106092,7 @@ le
 tirer
 ou
 rouler
-AT1-439a.gif
+
 
 le
 long
@@ -106406,7 +106406,7 @@ force
 dont
 on
 pousse
-AT1-440a.gif
+
 
 ou
 frappe
@@ -106525,7 +106525,7 @@ mouvoir
 le
 tour
 ou
-AT1-440b.gif
+
 
 cylindre
 C
@@ -107107,7 +107107,7 @@ de
 tous
 à
 expliquer
-AT1-443a.gif
+
 Supposons
 que
 CH
@@ -109227,7 +109227,7 @@ imagination
 en
 toutes
 
-AT1-452a.gif
+
 
 les
 parties
@@ -109384,7 +109384,7 @@ parallèles
 à
 cette
 même
-AT1-452b.gif
+
 
 CBE
 
@@ -109467,7 +109467,7 @@ ADE
 
 FED
 
-AT1-453a.gif
+
 
 EFB
 
@@ -109553,7 +109553,7 @@ toutes
 les
 parties
 dont
-AT1-453b.gif
+
 
 on
 peut
@@ -110591,7 +110591,7 @@ la
 force
 ou
 puis
-AT1-465a.gif
+
 
 sance
 mouvante
@@ -110694,7 +110694,7 @@ page
 pour
 le
 second
-AT1-465b.gif
+
 
 cas
 Car
@@ -110889,7 +110889,7 @@ avait
 entre
 la
 détermination
-AT1-466a.gif
+
 
 et
 la
@@ -111478,7 +111478,7 @@ composés
 qui
 se
 font
-AT1-469a.gif
+
 
 sur
 deux
@@ -112127,7 +112127,7 @@ s
 de
 la
 direc
-AT1-471a.gif
+
 
 tion
 AO
@@ -112666,7 +112666,7 @@ démontré
 considérons
 la
 figure
-AT1-472a.gif
+
 
 de
 la
@@ -112763,7 +112763,7 @@ seconde
 figure
 pareille
 à
-AT1-473a.gif
+
 
 celle
 là
@@ -115895,7 +115895,7 @@ il
 en
 donne
 pour
-AT1-487a.gif
+
 
 trouver
 les
@@ -116847,7 +116847,7 @@ mais
 seulement
 aux
 plus
-AT1-490a.gif
+
 
 aisées
 ainsi
@@ -123626,7 +123626,7 @@ sanguinis
 ingreditur
 Sic
 enim
-AT1-525a.gif
+
 
 facile
 intelligemus
@@ -128458,7 +128458,7 @@ et
 démontrez
 tout
 le
-AT1-547a.gif
+
 
 contraire
 de
@@ -131236,7 +131236,7 @@ la
 Lumière
 supposons
 le
-AT1-556a.gif
+
 
 globe
 diaphane
@@ -134783,7 +134783,7 @@ droite
 BE
 
 ren
-AT2-2a.gif
+
 
 contrant
 le
@@ -135394,7 +135394,7 @@ bien
 major
 erit
 
-AT2-4a.gif
+
 
 proportio
 quadrati
@@ -135503,7 +135503,7 @@ on
 verra
 ici
 manifestement
-AT2-5a.gif
+
 
 
 
@@ -135627,7 +135627,7 @@ E
 
 
 d
-AT2-7a.gif
+
 
 Application
 du
@@ -135732,7 +135732,7 @@ propter
 similitudinem
 triangulorum
 ut
-AT2-9a.gif
+
 
 BC
 
@@ -135854,7 +135854,7 @@ quadratum
 IE
 
 d
-AT2-7b.gif
+
 
 cto
 E
@@ -136176,7 +136176,7 @@ E
 Adaequentur
 igitur
 d
-AT2-9b.gif
+
 Cum
 autem
 punctum
@@ -136539,7 +136539,7 @@ fallit
 ista
 methodus
 d
-AT2-11a.gif
+
 
 juxta
 superiorem
@@ -137959,7 +137959,7 @@ ce
 qui
 est
 le
-AT2-17a.gif
+
 
 même
 en
@@ -138280,7 +138280,7 @@ elle
 accompagne
 cette
 détermination
-AT2-19a.gif
+
 
 comme
 on
@@ -138446,7 +138446,7 @@ qu
 elle
 est
 composée
-AT2-20.gif
+
 
 de
 celle
@@ -143649,7 +143649,7 @@ esset
 Unum
 arripiam
 ex
-AT2-55a.gif
+
 
 Tractatu
 de
@@ -143784,7 +143784,7 @@ qui
 ab
 aliis
 quatuor
-AT2-56a.gif
+
 
 stipatus
 cum
@@ -143907,7 +143907,7 @@ aërem
 a
 diversis
 partibus
-AT2-59a.gif
+
 
 ad
 diversos
@@ -144312,7 +144312,7 @@ adhuc
 vitro
 implicitus
 latere
-AT2-59b.gif
+
 
 suo
 3
@@ -146721,7 +146721,7 @@ moveri
 Monui
 autem
 variis
-AT2-71a.gif
+
 
 in
 locis
@@ -147677,7 +147677,7 @@ illa
 spatia
 per
 quae
-AT2-76a.gif
+
 
 lumen
 proprie
@@ -147804,7 +147804,7 @@ globulis
 impellitur
 in
 unam
-AT2-77a.gif
+
 
 partem
 non
@@ -149262,7 +149262,7 @@ page
 savoir
 y
 
-propto.png
+
 
 ${\\rm m} - {{\\displaystyle\\strut {\\rm n}\\over \\displaystyle\\strut {\\rm z}}}{\\rm x} + \\sqrt{{\\rm mm} + {\\rm ox} - {{\\displaystyle\\strut {\\rm p}\\over \\displaystyle\\strut {\\rm m}}}{\\rm xx}}$
 
@@ -153306,7 +153306,7 @@ il
 suppose
 que
 la
-AT2-106a.gif
+
 
 ligne
 EB
@@ -153997,7 +153997,7 @@ de
 touchante
 ainsi
 que
-AT2-107a.gif
+
 
 ferait
 M
@@ -154118,7 +154118,7 @@ de
 quoi
 toutefois
 il
-AT2-107b.gif
+
 
 s
 ensuivrait
@@ -154372,7 +154372,7 @@ B
 il
 est
 faux
-AT2-110a.gif
+
 
 qu
 il
@@ -155167,7 +155167,7 @@ de
 sujets
 Le
 raisonne
-AT2-112a.gif
+
 
 ment
 est
@@ -159942,7 +159942,7 @@ la
 roue
 cu
 roulette
-AT2-117a.gif
+
 
 AEF
 
@@ -160167,7 +160167,7 @@ D
 si
 se
 décochant
-AT2-118a.gif
+
 
 de
 D
@@ -160928,7 +160928,7 @@ un
 et
 l
 autre
-AT2-120a.gif
+
 Et
 pour
 leur
@@ -161791,7 +161791,7 @@ Aussi
 bien
 vous
 vous
-AT2-125a.gif
+
 
 plaignez
 quand
@@ -162769,7 +162769,7 @@ que
 CD
 
 est
-AT2-128a.gif
+
 
 ${\\displaystyle\\strut {C \\ {\\it in}\\  B}\\over \\displaystyle\\strut {2B + C}}$
 
@@ -163234,7 +163234,7 @@ ai
 repris
 la
 façon
-AT2-130a.gif
+
 
 dont
 se
@@ -163925,7 +163925,7 @@ assembler
 en
 un
 endroit
-AT2-133a.gif
+
 
 de
 la
@@ -164546,7 +164546,7 @@ où
 le
 cercle
 touche
-AT2-135a.gif
+
 
 la
 courbe
@@ -165226,7 +165226,7 @@ il
 y
 a
 cer
-AT2-138a.gif
+
 
 taine
 proportion
@@ -173124,7 +173124,7 @@ divers
 selon
 les
 diverses
-AT2-170a.gif
+
 
 propriétés
 de
@@ -173597,7 +173597,7 @@ est
 rendue
 égale
 à
-AT2-170b.gif
+
 
 BC
 
@@ -176784,7 +176784,7 @@ proche
 ou
 plus
 éloigné
-AT2-184a.gif
+
 
 du
 centre
@@ -176848,7 +176848,7 @@ A
 
 représente
 le
-AT2-184b.gif
+
 
 centre
 du
@@ -177205,7 +177205,7 @@ servir
 pour
 la
 prouver
-AT2-186a.gif
+
 
 Car
 par
@@ -177294,7 +177294,7 @@ G
 et
 D
 
-AT2-186b.gif
+
 4
 Sa
 quatrième
@@ -185477,7 +185477,7 @@ jusques
 ici
 et
 qui
-AT2-212a.gif
+
 
 soit
 presque
@@ -187703,7 +187703,7 @@ peut
 pas
 au
 même
-AT2-219a.gif
+
 
 temps
 se
@@ -190402,7 +190402,7 @@ EXEMPLE
 DE
 LA
 POULIE
-AT2-229a.gif
+
 Le
 poids
 E
@@ -190692,7 +190692,7 @@ d
 un
 pied
 seulement
-AT2-231a.gif
+
 Et
 il
 faut
@@ -191051,7 +191051,7 @@ la
 ligne
 AC
 
-AT2-232a.gif
+
 
 en
 sorte
@@ -192284,7 +192284,7 @@ pendant
 que
 la
 force
-AT2-235a.gif
+
 
 agit
 le
@@ -193032,7 +193032,7 @@ la
 ligne
 DG
 
-AT2-238a.gif
+
 
 Mais
 il
@@ -193236,7 +193236,7 @@ corde
 j
 entends
 une
-AT2-239a.gif
+
 
 corde
 mathématique
@@ -193381,7 +193381,7 @@ sont
 Car
 il
 faut
-AT2-240a.gif
+
 
 considérer
 que
@@ -194129,7 +194129,7 @@ est
 sa
 pesanteur
 absolue
-AT2-243a.gif
+
 Tout
 de
 même
@@ -194636,7 +194636,7 @@ deux
 ont
 même
 rapport
-AT2-244a.gif
+
 
 l
 une
@@ -195606,7 +195606,7 @@ Et
 en
 la
 courbe
-AT2-247a.gif
+
 
 où
 les
@@ -197702,7 +197702,7 @@ e
 
 se
 trouve
-AT2-257a.gif
+
 
 sur
 le
@@ -198100,7 +198100,7 @@ plus
 PB
 
 sont
-AT2-259a.gif
+
 
 égales
 à
@@ -198742,7 +198742,7 @@ points
 de
 ces
 deux
-AT2-261a.gif
+
 
 figures
 Tout
@@ -199088,7 +199088,7 @@ dehors
 ou
 au
 dedans
-AT2-262a.gif
+
 
 de
 la
@@ -199355,7 +199355,7 @@ autre
 de
 B
 
-AT2-265a.gif
+
 
 vers
 G
@@ -200893,7 +200893,7 @@ BC
 
 qu
 on
-AT2-270a.gif
+
 
 suppose
 ferme
@@ -206426,7 +206426,7 @@ pour
 les
 corps
 transpa
-AT2-297a.gif
+
 
 rents
 et
@@ -207319,7 +207319,7 @@ seul
 reconnaître
 la
 contrariété
-AT2-300a.gif
+
 
 que
 j
@@ -208188,7 +208188,7 @@ les
 trous
 de
 divers
-AT2-303a.gif
+
 
 tuyaux
 en
@@ -211514,7 +211514,7 @@ pendant
 qu
 elle
 le
-AT2-308a.gif
+
 
 décrit
 coupe
@@ -211882,7 +211882,7 @@ toutes
 les
 lignes
 qui
-AT2-309a.gif
+
 
 rencontrent
 les
@@ -212051,7 +212051,7 @@ font
 une
 telle
 figure
-AT2-310a.gif
+
 Or
 pour
 trouver
@@ -212136,7 +212136,7 @@ autour
 de
 cette
 rou
-AT2-310b.gif
+
 
 lette
 au
@@ -212369,7 +212369,7 @@ font
 une
 telle
 figure
-AT2-311a.gif
+
 
 
 Et
@@ -212563,7 +212563,7 @@ comme
 GR
 
 qui
-AT2-311b.gif
+
 
 touche
 le
@@ -213041,7 +213041,7 @@ au
 diamètre
 AK
 
-AT2-313a.gif
+
 
 posant
 que
@@ -214064,7 +214064,7 @@ en
 voici
 la
 façon
-AT2-317a.gif
+
 Puisque
 les
 côtés
@@ -215890,7 +215890,7 @@ courbe
 qui
 a
 cette
-AT2-323a.gif
+
 
 propriété
 que
@@ -220151,7 +220151,7 @@ en
 ceci
 être
 préoccupé
-AT2-354a.gif
+
 
 est
 que
@@ -220440,7 +220440,7 @@ qui
 soit
 justement
 
-AT2-354b.gif
+
 
 double
 en
@@ -220745,7 +220745,7 @@ ABC
 
 on
 a
-AT2-354c.gif
+
 
 pensé
 que
@@ -220946,7 +220946,7 @@ qu
 il
 y
 a
-AT2-357a.gif
+
 
 encore
 un
@@ -221768,7 +221768,7 @@ est
 à
 BA
 
-AT2-359a.gif
+
 
 et
 double
@@ -222063,7 +222063,7 @@ jusqu
 M
 
 puisque
-AT2-360a.gif
+
 
 LM
 
@@ -224201,7 +224201,7 @@ grande
 quantité
 d
 une
-AT2-367a.gif
+
 
 matière
 qui
@@ -224699,7 +224699,7 @@ corps
 fluide
 peut
 trans
-AT2-370a.gif
+
 
 mettre
 une
@@ -224773,7 +224773,7 @@ compagne
 Et
 afin
 que
-AT2-371a.gif
+
 
 vous
 ne
@@ -228751,7 +228751,7 @@ la
 ligne
 DE
 
-AT2-387a.gif
+
 
 doit
 suivre
@@ -231937,7 +231937,7 @@ n
 est
 pas
 impossible
-AT2-399a.gif
+
 
 qu
 il
@@ -234552,7 +234552,7 @@ remettre
 en
 l
 équi
-AT2-412a.gif
+
 
 libre
 auquel
@@ -235113,7 +235113,7 @@ resserrées
 et
 contraintes
 comme
-AT2-414a.gif
+
 
 dans
 des
@@ -239217,7 +239217,7 @@ ce
 tuyau
 la
 ligne
-AT2-423a.gif
+
 
 que
 fait
@@ -240888,7 +240888,7 @@ parties
 opposées
 D
 
-AT2-431a.gif
+
 
 et
 E
@@ -244680,7 +244680,7 @@ CD
 
 ce
 verre
-AT2-446a.gif
+
 
 peut
 bien
@@ -245366,7 +245366,7 @@ mît
 une
 au
 delà
-AT2-453a.gif
+
 
 du
 cube
@@ -245762,7 +245762,7 @@ la
 presserait
 contre
 le
-AT2-454a.gif
+
 
 bassin
 le
@@ -248503,7 +248503,7 @@ autant
 de
 force
 contre
-AT2-601a.gif
+
 
 le
 flanc
@@ -252138,7 +252138,7 @@ voudra
 Et
 je
 pourrais
-AT2-472a.gif
+
 
 donner
 une
@@ -253530,7 +253530,7 @@ avoir
 2
 corps
 plats
-AT2-481a.gif
+
 
 d
 aucune
@@ -255228,7 +255228,7 @@ que
 n
 en
 voyant
-AT2-487a.gif
+
 
 point
 le
@@ -255498,7 +255498,7 @@ brûlent
 mais
 ceux
 qui
-AT2-488a.gif
+
 
 s
 assemblent
@@ -259659,7 +259659,7 @@ toutes
 diverses
 ce
 serait
-AT2-504a.gif
+
 
 oleum
 et
@@ -260409,7 +260409,7 @@ CD
 
 est
 nombre
-AT2-507a.gif
+
 
 impair
 Or
@@ -262243,7 +262243,7 @@ X
 elles
 doivent
 nécessairement
-AT2-513a.gif
+
 
 s
 entrecouper
@@ -263479,7 +263479,7 @@ le
 milieu
 et
 que
-AT2-519a.gif
+
 
 plusieurs
 hommes
@@ -266747,7 +266747,7 @@ courbes
 de
 diverse
 espèce
-AT2-531a.gif
+
 
 ne
 peuvent
@@ -267161,7 +267161,7 @@ conduit
 à
 cette
 cons
-AT2-533a.gif
+
 
 truction
 ainsi
@@ -267425,7 +267425,7 @@ soient
 de
 leur
 direction
-AT2-534a.gif
+
 
 c
 est
@@ -267799,7 +267799,7 @@ par
 LM
 
 en
-AT2-536a.gif
+
 
 un
 temps
@@ -268446,7 +268446,7 @@ demande
 qui
 ne
 serve
-AT2-537a.gif
+
 
 aussi
 à
@@ -268821,7 +268821,7 @@ lui
 ou
 ses
 parties
-AT2-538a.gif
+
 
 en
 autant
@@ -273085,7 +273085,7 @@ représente
 l
 eau
 qui
-AT2-558a.gif
+
 
 coule
 par
@@ -274143,7 +274143,7 @@ ceux
 qui
 viennent
 du
-AT2-562a.gif
+
 
 point
 I
@@ -274758,7 +274758,7 @@ qu
 elle
 soit
 poussée
-AT2-565a.gif
+
 
 moins
 fort
@@ -277771,7 +277771,7 @@ peu
 plus
 haut
 comme
-AT2-588a.gif
+
 
 vers
 B
@@ -277942,7 +277942,7 @@ même
 temps
 Comme
 ici
-AT2-589a.gif
+
 
 le
 piston
@@ -279124,7 +279124,7 @@ deviner
 ni
 par
 conséquent
-AT2-592a.gif
+
 
 le
 réfuter
@@ -279376,7 +279376,7 @@ plomb
 qui
 soient
 plus
-AT2-593a.gif
+
 
 grosses
 que
@@ -292728,7 +292728,7 @@ la
 main
 en
 conduisant
-AT2-630a.gif
+
 
 ce
 marteau
@@ -293021,7 +293021,7 @@ derechef
 elle
 sera
 élevée
-AT2-631a.gif
+
 
 par
 le
@@ -293517,7 +293517,7 @@ vous
 écrire
 et
 ayant
-AT2-634a.gif
+
 
 quelquefois
 à
@@ -302748,7 +302748,7 @@ pour
 un
 il
 en
-AT3-12a.gif
+
 
 
 faut
@@ -302931,7 +302931,7 @@ au
 point
 B
 
-AT3-13a.gif
+
 
 et
 passée
@@ -305764,7 +305764,7 @@ IK
 est
 plus
 grand
-AT3-26d.gif
+
 
 que
 IB
@@ -307477,7 +307477,7 @@ ponendis
 Et
 à
 cause
-AT3-36a.gif
+
 
 qu
 en
@@ -315305,7 +315305,7 @@ me
 semble
 pas
 être
-AT3-74a.gif
+
 
 qu
 il
@@ -315777,7 +315777,7 @@ de
 laquelle
 je
 suppose
-AT3-75a.gif
+
 
 qu
 il
@@ -316639,7 +316639,7 @@ qu
 il
 y
 a
-AT3-79a.gif
+
 
 moins
 d
@@ -321044,7 +321044,7 @@ oppositum
 ejus
 quod
 intende
-AT3-106a.gif
+
 
 
 bat
@@ -325681,7 +325681,7 @@ qu
 il
 ne
 peut
-AT3-129a.gif
+
 
 jamais
 toucher
@@ -326313,7 +326313,7 @@ ABC
 
 n
 est
-AT3-130a.gif
+
 
 pas
 plus
@@ -326466,7 +326466,7 @@ cause
 que
 cette
 largeur
-AT3-133a.gif
+
 
 ne
 change
@@ -326587,7 +326587,7 @@ l
 eau
 qui
 coule
-AT3-133b.gif
+
 
 par
 un
@@ -326623,7 +326623,7 @@ ABDE
 et
 BCFG
 
-AT3-134a.gif
+
 
 mis
 entre
@@ -327109,7 +327109,7 @@ air
 qui
 est
 dessous
-AT3-135a.gif
+
 
 vers
 B
@@ -329481,7 +329481,7 @@ lequel
 la
 retiendrait
 toujours
-AT3-144a.gif
+
 
 exactement
 dans
@@ -329954,7 +329954,7 @@ ne
 commence
 à
 dimi
-AT3-146a.gif
+
 
 nuer
 lorsqu
@@ -333537,7 +333537,7 @@ de
 telles
 machines
 mais
-AT3-164a.gif
+
 
 non
 pas
@@ -333756,7 +333756,7 @@ certaine
 vitesse
 ils
 ne
-AT3-165a.gif
+
 
 la
 peuvent
@@ -336788,7 +336788,7 @@ continuellement
 une
 nouvelle
 déter
-AT3-179a.gif
+
 
 mination
 à
@@ -337969,7 +337969,7 @@ disent
 qu
 elle
 qua
-AT3-186a.gif
+
 
 druple
 la
@@ -341843,7 +341843,7 @@ est
 manet
 in
 eodem
-AT3-208a.gif
+
 
 statu
 in
@@ -342587,7 +342587,7 @@ un
 autre
 il
 doit
-AT3-211a.gif
+
 
 perdre
 autant
@@ -342815,7 +342815,7 @@ autres
 corps
 ne
 sont
-AT3-212a.gif
+
 
 que
 d
@@ -346161,7 +346161,7 @@ serai
 bien
 aise
 de
-AT3-232a.gif
+
 
 savoir
 si
@@ -349534,7 +349534,7 @@ en
 l
 air
 Comme
-AT3-245a.gif
+
 
 s
 il
@@ -350146,7 +350146,7 @@ page
 qu
 il
 faut
-AT3-250a.gif
+
 
 seulement
 considérer
@@ -352706,7 +352706,7 @@ tant
 qu
 on
 vou
-AT3-260a.gif
+
 
 dra
 n
@@ -359494,7 +359494,7 @@ B
 
 perdait
 en
-AT3-284a.gif
+
 
 quelque
 point
@@ -360287,7 +360287,7 @@ includi
 possit
 ut
 nun
-AT3-288a.gif
+
 
 quam
 ex
@@ -363281,7 +363281,7 @@ C
 abstinendum
 tamen
 esse
-AT3-303a.gif
+
 
 putavi
 ab
@@ -363608,7 +363608,7 @@ duae
 velocitates
 componunt
 velocitatem
-AT3-304a.gif
+
 
 quae
 est
@@ -363816,7 +363816,7 @@ totam
 AB
 
 in
-AT3-305a.gif
+
 
 proportione
 FA
@@ -364090,7 +364090,7 @@ Praeterea
 componitur
 determinatio
 sive
-AT3-306a.gif
+
 
 via
 ab
@@ -364965,7 +364965,7 @@ quid
 impedit
 si
 franga
-AT3-309a.gif
+
 
 tur
 quominus
@@ -366371,7 +366371,7 @@ fit
 mentio
 motûs
 successivi
-AT3-317a.gif
+
 
 in
 alterâ
@@ -367470,7 +367470,7 @@ A
 moveri
 eodem
 tempore
-AT3-323a.gif
+
 
 versus
 B
@@ -367918,7 +367918,7 @@ versus
 B
 
 impossibile
-AT3-325a.gif
+
 
 esset
 pilam
@@ -372280,7 +372280,7 @@ certam
 Sed
 si
 dicat
-AT3-344a.gif
+
 
 moveri
 A
@@ -372377,7 +372377,7 @@ DC
 alter
 corporis
 longitudinem
-AT3-345a.gif
+
 
 habentis
 AD
@@ -372643,7 +372643,7 @@ et
 AD
 
 vis
-AT3-346a.gif
+
 
 minuatur
 Ducatur
@@ -372968,7 +372968,7 @@ celeritatis
 et
 deorsum
 duobus
-AT3-347a.gif
+
 
 pervenir
 et
@@ -379236,7 +379236,7 @@ itemque
 lineam
 q
 
-AT3-708a.gif
+
 
 
 quae
@@ -379407,7 +379407,7 @@ punctum
 A
 
 perpendi
-AT3-709a.gif
+
 
 culariter
 incumbit
@@ -379535,7 +379535,7 @@ diameter
 habetur
 ut
 supra
-AT3-710a.gif
+
 Item
 data
 hyperbola
@@ -379570,7 +379570,7 @@ duco
 lineas
 BA
 
-AT3-710b.gif
+
 
 
 et
@@ -379617,7 +379617,7 @@ ejusque
 opposita
 cujus
 ver
-AT3-711a.gif
+
 
 tex
 C
@@ -379772,7 +379772,7 @@ pars
 axis
 GY
 
-AT3-712a.gif
+
 
 
 est
@@ -379879,7 +379879,7 @@ invenio
 x
 3
 
-propto.png
+
 
 $+ {{\\displaystyle\\strut aa\\over \\displaystyle\\strut b}}xx + crx - {{1\\over 4}}brr$
 
@@ -395212,7 +395212,7 @@ boules
 fussent
 de
 même
-AT3-452a.gif
+
 
 grosseur
 C
@@ -401126,7 +401126,7 @@ de
 peser
 l
 air
-AT3-484a.gif
+
 
 qui
 m
@@ -423509,7 +423509,7 @@ touchent
 presque
 en
 un
-AT3-586a.gif
+
 
 assez
 long
@@ -424100,7 +424100,7 @@ principalement
 les
 vents
 de
-AT3-588a.gif
+
 
 pluie
 qui
@@ -425077,7 +425077,7 @@ suspendu
 en
 l
 air
-AT3-593a.gif
+
 
 au
 chemin
@@ -430700,7 +430700,7 @@ qu
 il
 vous
 plaît
-AT3-614a.gif
+
 
 d
 employer
@@ -431752,7 +431752,7 @@ F
 
 ce
 jet
-AT3-807a.gif
+
 
 horizontal
 est
@@ -432031,7 +432031,7 @@ l
 espace
 ADE
 
-AT3-808a.gif
+
 
 représente
 le
@@ -432693,7 +432693,7 @@ AI
 deux
 fois
 aussi
-AT3-810a.gif
+
 
 long
 que
@@ -433090,7 +433090,7 @@ la
 ligne
 BE
 
-AT3-811a.gif
+
 
 au
 bout
@@ -434505,7 +434505,7 @@ ABC
 est
 tout
 plein
-AT3-633a.gif
+
 
 d
 eau
@@ -435033,7 +435033,7 @@ ce
 qui
 est
 cause
-AT3-634a.gif
+
 
 qu
 elle
@@ -435273,7 +435273,7 @@ qu
 il
 en
 sort
-AT3-635a.gif
+
 
 obliquement
 Et
@@ -436466,7 +436466,7 @@ CD
 où
 est
 maintenant
-AT3-640a.gif
+
 
 l
 autre
@@ -436888,7 +436888,7 @@ soit
 fois
 plus
 long
-AT3-643a.gif
+
 
 que
 l
@@ -437077,7 +437077,7 @@ si
 elle
 en
 venait
-AT3-644a.gif
+
 
 aussi
 La
@@ -437233,7 +437233,7 @@ pourrait
 faire
 une
 seule
-AT3-644b.gif
+
 
 elles
 ne
@@ -438701,7 +438701,7 @@ venant
 en
 ligne
 droite
-AT3-651a.gif
+
 
 d
 A
@@ -439331,7 +439331,7 @@ légère
 proportion
 elle
 ne
-AT3-657a.gif
+
 
 descend
 pas
@@ -439593,7 +439593,7 @@ et
 en
 descendant
 son
-AT3-657b.gif
+
 
 augmentation
 est
@@ -442503,7 +442503,7 @@ que
 j
 explique
 toutes
-AT3-817a.gif
+
 
 les
 propriétés
@@ -442608,7 +442608,7 @@ et
 de
 plusieurs
 autres
-AT3-817b.gif
+
 
 corps
 ne
@@ -442741,7 +442741,7 @@ toujours
 si
 abondamment
 du
-AT3-817c.gif
+
 
 pôle
 que
@@ -458993,7 +458993,7 @@ C
 
 sont
 les
-AT4-39a.gif
+
 
 centres
 des
@@ -459144,7 +459144,7 @@ AB
 et
 BC
 
-AT4-40a.gif
+
 
 je
 mène
@@ -461722,7 +461722,7 @@ tourner
 l
 arbre
 
-AT4-764a.gif
+
 
 412
 
@@ -463138,7 +463138,7 @@ qui
 enseigne
 quel
 est
-AT4-47a.gif
+
 
 le
 rayon
@@ -492393,7 +492393,7 @@ C
 
 qu
 il
-AT4-184a.gif
+
 
 ne
 le
@@ -492515,7 +492515,7 @@ de
 ses
 neuf
 degrés
-AT4-185a.gif
+
 
 de
 mouvement
@@ -502559,7 +502559,7 @@ A
 ita
 inter
 
-AT4-229a.gif
+
 
 secent
 ut
@@ -533585,7 +533585,7 @@ une
 dimension
 sensible
 comme
-AT4-367a.gif
+
 
 AD
 
@@ -533677,7 +533677,7 @@ ABC
 dont
 je
 suppose
-AT4-367b.gif
+
 
 les
 côtés
@@ -533878,7 +533878,7 @@ C
 
 s
 entresuivent
-AT4-368a.gif
+
 
 alors
 pour
@@ -534224,7 +534224,7 @@ ordonnées
 angles
 droits
 au
-AT4-369a.gif
+
 
 diamètre
 HL
@@ -536494,7 +536494,7 @@ vibrations
 et
 la
 perpendi
-AT4-381a.gif
+
 
 culaire
 AE
@@ -537024,7 +537024,7 @@ d
 où
 je
 conclus
-AT4-383a.gif
+
 
 qu
 il
@@ -537781,7 +537781,7 @@ ce
 nom
 de
 résistance
-AT4-386a.gif
+
 
 de
 l
@@ -538179,7 +538179,7 @@ autre
 NAC
 
 devient
-AT4-387a.gif
+
 
 plus
 grande
@@ -540968,7 +540968,7 @@ circumfusus
 tendit?
 et
 qua
-AT4-401a.gif
+
 
 vi
 possunt
@@ -541059,7 +541059,7 @@ in
 aliis
 locis
 remotioribus
-AT4-402a.gif
+
 Nam
 contra
 ex
@@ -544510,7 +544510,7 @@ ai
 proposée
 à
 quoi
-AT4-417a.gif
+
 
 il
 m
@@ -545179,7 +545179,7 @@ soit
 mené
 le
 demi
-AT4-421a.gif
+
 
 diamètre
 IN
@@ -545441,7 +545441,7 @@ Q
 est
 toujours
 plus
-AT4-421b.gif
+
 
 éloigné
 de
@@ -546977,7 +546977,7 @@ les
 forces
 des
 agitations
-AT4-427a.gif
+
 
 des
 points
@@ -547330,7 +547330,7 @@ rendre
 son
 discours
 plus
-AT4-430a.gif
+
 
 clair
 et
@@ -548287,7 +548287,7 @@ soient
 convergentes
 
 et
-AT4-432a.gif
+
 
 s
 assemblent
@@ -550364,7 +550364,7 @@ la
 ligne
 AB
 
-AT4-445a.gif
+
 
 on
 ôte
@@ -559870,7 +559870,7 @@ polos
 propterea
 quod
 nova
-AT4-478a.gif
+
 
 materia
 per
@@ -560858,7 +560858,7 @@ latior
 fiet
 non
 autem
-AT4-482a.gif
+
 
 fortasse
 magis
@@ -564370,7 +564370,7 @@ au
 point
 D
 
-AT4-500a.gif
+
 
 pour
 ce
@@ -567516,7 +567516,7 @@ que
 tous
 les
 triangles
-AT4-512a.gif
+
 
 suspendus
 par
@@ -587376,7 +587376,7 @@ N
 ainsi
 N
 
-AT4-596a.gif
+
 
 est
 à
@@ -594224,7 +594224,7 @@ pour
 avoir
 le
 quo
-AT4-622a.gif
+
 
 tient
 de
@@ -612003,7 +612003,7 @@ doit
 à
 celle
 qui
-AT5-74a.gif
+
 
 est
 en
@@ -612734,7 +612734,7 @@ A
 se
 rompe
 aussi
-AT5-77a.gif
+
 
 vers
 B
@@ -619779,7 +619779,7 @@ s
 en
 peut
 servir
-AT4-679a.gif
+
 
 pour
 jouer
@@ -619871,13 +619871,13 @@ avec
 G
 
 ou
-musique.png
+
 
 et
 d
 
 avec
-musique.png
+
 
 et
 d
@@ -619895,7 +619895,7 @@ et
 f
 
 avec
-musique.png
+
 
 et
 g
@@ -630893,7 +630893,7 @@ vient
 de
 G
 
-AT5-204a.gif
+
 
 vers
 B
@@ -631203,7 +631203,7 @@ principe
 pour
 ce
 que
-AT5-205a.gif
+
 
 ce
 n
@@ -631457,7 +631457,7 @@ d
 incidence
 ABH
 
-AT5-206a.gif
+
 
 est
 supposé
@@ -656975,7 +656975,7 @@ qu
 il
 a
 prouvé
-AT5-336a.gif
+
 
 en
 la
@@ -667039,7 +667039,7 @@ par
 le
 point
 où
-AT5-396a.gif
+
 
 les
 deux
@@ -680678,7 +680678,7 @@ exactum
 de
 la
 raison
-AT4-734a.gif
+
 5
 Et
 puis
@@ -680938,7 +680938,7 @@ Et
 il
 ne
 faut
-AT4-734b.gif
+
 
 qu
 à
@@ -680985,7 +680985,7 @@ perpendiculaire
 lui
 ou
 bien
-AT4-735a.gif
+
 
 au
 lieu
@@ -681180,7 +681180,7 @@ d
 agitation
 Donc
 le
-AT4-735b.gif
+
 
 filet
 isochrone
@@ -681536,7 +681536,7 @@ A
 en
 B
 
-AT4-736a.gif
+
 
 c
 est

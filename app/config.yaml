@@ -1,10 +1,8 @@
 apiVersion: 3
 docs:
-  docBase: '{docRoot}/{repo}'
-  docExt: ''
-  docPage: ''
-  docRoot: https://{org}.github.io
-  featurePage: 0_home
+  docPage: about
+  featureBase: 'https://github.com/{org}/{repo}/blob/master/docs/transcription{docExt}'
+  featurePage: ''
 interfaceDefaults:
   showGraphics: true
   showMath: true
@@ -23,6 +21,3 @@ typeDisplay:
     featuresBare: n
   figure:
     graphics: true
-  formula:
-    math: true
-writing: hbo
