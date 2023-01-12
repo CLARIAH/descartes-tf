@@ -22,6 +22,24 @@ postscriptum of the letter.
 
 Letters may contain illustrations, symbols, and mathematical formulas.
 
+### Sentences
+
+We have added the concept of sentence.
+A sentence is a piece of text within a paragraph that is
+terminated by a `.` . 
+
+Not all `.`s act as sentence terminator, though, e.g. in
+`Kal. Aprilis` it marks an abbreviation.
+
+We have tried to exclude most of these cases.
+
+The purpose of adding sentences was to have a convenient
+division within paragraphs. This division can be used to
+display manageable chunks of the corpus.
+
+It can also be used to detect parallel passages, i.e. pieces
+where W.F. Hermans repeats himself.
+
 ## Text-Fabric model
 
 The Text-Fabric model views the text as a series of atomic units, called
@@ -30,24 +48,11 @@ The Text-Fabric model views the text as a series of atomic units, called
 On top of that, more complex textual objects can be represented as *nodes*. In
 this corpus we have node types for:
 
-volume	9	75811.11	100
-letter	725	941.10	100
-page	2884	236.58	100
-p	8438	80.86	100
-postscriptum	56	46.79	0
-head	725	23.37	2
-address	86	15.22	0
-closer	541	13.10	1
-hi	5972	4.63	4
-opener	545	1.97	0
-formula	6200	1.27	1
-figure	319	1.00	0
-word	682300	1.00	100
-
 [*word*](#node-type-word),
 [*hi*](#node-type-hi),
 [*figure*](#node-type-figure),
 [*formula*](#node-type-formula),
+[*sentence*](#node-type-sentence),
 [*head*](#node-type-head),
 [*opener*](#node-type-opener),
 [*closer*](#node-type-closer),
@@ -109,7 +114,7 @@ feature | values | description
 **ismargin** | `1` | indicates the word is in the margin
 **issub** | `1` | indicates the word is in subscript
 **issup** | `1` | indicates the word is in superscript
-**typ** | `empty` | indicates the kind of word
+**typ** | `empty` `formula` | indicates the kind of word
 
 * **typ** = `empty`: deliberately empty word, i.e. **trans** is empty or absent,
   however, **punc** may contain something, typically a space
@@ -147,7 +152,18 @@ This gives you the opportunity to view the source code of formulas.
 
 feature | values | description
 ------- | ------ | ------
-**notation** | `A\over B` | TeX source code of a formula
+**notation** | `TeX` | notation method of the formula
+**tex** | `A\over B` | TeX source code of a formula
+
+## Node type [*sentence*](#sentence)
+
+Sentence, i.e. a part in a paragraph terminated by a full stop.
+`.` that are used for other purposes do not count as a full stop,
+e.g. in abbreviations and numbers.
+
+feature | values | description
+------- | ------ | ------
+**n** | `1` `2` | sequence number of a sentence within the paragraph.
 
 ## Node type [*head*](#head)
 
@@ -230,6 +246,7 @@ The following text formats are defined (you can also list them with `T.formats`)
 format | description
 --- | ---
 `text-orig-full`     | the full text of all words
+`layout-orig-full`   | the full text of all words, with special formatting indicating special characteristics of the text.
 
 The formats with `text` result in strings that are plain text, without additional formatting.
 

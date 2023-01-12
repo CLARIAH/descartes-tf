@@ -1,4 +1,9 @@
 apiVersion: 3
+dataDisplay:
+  exampleSectionHtml: <code>letter 1:1001</code>
+  textFormats:
+    layout-orig-full: 
+      method: layoutOrig
 docs:
   docPage: about
   featureBase: 'https://github.com/{org}/{repo}/blob/master/docs/transcription{docExt}'
@@ -6,18 +11,36 @@ docs:
 interfaceDefaults:
   showGraphics: true
   showMath: true
+  standardFeatures: false
+  withLabels: true
 provenanceSpec:
   corpus: Descartes = Descartes, all letters
   graphicsRelative: source/illustrations
-  version: 0.9
+  version: 1.0
   webBase: http://emlo-portal.bodleian.ox.ac.uk/collections/?catalogue=rene-descartes
   webHint: See how this corpus is included in the Bodleian catalog
+  moduleSpecs:
+  - corpus: Similar Sentences
+    relative: parallels/tf
 typeDisplay:
   volume:
-    featuresBare: n
+    label: '{n}'
+    template: 'vol. {n}'
+  page:
+    label: '{n}'
+    template: 'p. {n}'
   letter:
-    featuresBare: id
+    label: '{id} {date} from {sender} to {recipient}'
+    template: '{id} {date} from {sender} to {recipient}'
+    features: senderloc recipientloc
   p:
-    featuresBare: n
+    label: '{n}'
+  sentence:
+    label: '{n}'
+    condense: true
   figure:
+    label: '{url}'
     graphics: true
+  formula:
+    label: '{notation}'
+    features: tex

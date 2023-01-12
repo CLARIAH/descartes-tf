@@ -1,5 +1,5 @@
 sourceFile: JapAM-EJB-DR.xml
-versionTf: 0.9
+versionTf: 1.0
 
 generic:
   author: René Descartes
@@ -20,6 +20,7 @@ otext:
     "fmt:text-orig-full": "{trans}{punc}"
     "sectionFeatures": "n,id,n"
     "sectionTypes": "volume,letter,p"
+    "levels": "volume,letter,page,postscriptum,opener,closer,address,head,p,sentence,hi,formula,figure,word"
 
 intFeatures:
   - n
@@ -65,8 +66,8 @@ featureMeta:
       level of a paragraph when it acts like a heading
   n: 
     description: number of whatever element
-  notation:
-    description: unformatted TeX code of a formula, without the `$`
+  notation: 
+    description: notation method of a formula
   punc:
     description: >-
       nonword chars after a word 
@@ -83,12 +84,14 @@ featureMeta:
     description: sender of a letter
   senderloc: 
     description: location from where a letter was sent
+  tex:
+    description: unformatted TeX code of a formula, without the `$`
   trans:
     description: >-
       transcription of a word 
   typ:
     description: >-
-      kind of a node; "empty" means: deliberately empty slot; "head" means: header of letter; "symbol" or "illustration" is the kind of a figure
+      kind of a node; "empty"; "formula", "head", "symbol", "illustration"
   url:
     description: >-
       url of a graphic node

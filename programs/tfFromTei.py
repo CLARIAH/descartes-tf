@@ -137,6 +137,7 @@ def correctText(lines):
 # SOURCE READING
 
 P = "p"
+S = "sentence"
 VOLUME = "volume"
 LETTER = "letter"
 PAGE = "page"
@@ -155,6 +156,10 @@ FIGURE = "figure"
 HI = "hi"
 ADD = "add"
 DIV = "div"
+OPENER = "opener"
+CLOSER = "closer"
+ADDRESS = "address"
+POSTSCRIPTUM = "postscriptum"
 
 TEXT_ATTRIBUTES = """
     italic
@@ -520,7 +525,7 @@ def walkNode(cv, cur, node):
         tp = atts.get("type", None)
         if tp is None or tp == "para":
             pass
-        elif tp in {"opener", "closer", "address", "postscriptum"}:
+        elif tp in {OPENER, CLOSER, ADDRESS, POSTSCRIPTUM}:
             cur[tp] = cv.node(tp)
         else:
             pass
@@ -547,6 +552,11 @@ def walkNode(cv, cur, node):
         elif tag == P:
             cur["pNum"] += 1
             cv.feature(cur[P][-1], n=cur["pNum"])
+            if sentenceFormation(cur):
+                newS = cv.node(S)
+                cur["sNum"] = 1
+                cv.feature(newS, n=cur["sNum"])
+                cur[S] = newS
 
     elif tag in TRANSPARENT_ELEMENTS:
         pass
@@ -558,7 +568,9 @@ def walkNode(cv, cur, node):
         cur[textAttribute] = 1
 
     if tag in DO_TEXT_ELEMENTS:
-        addText(cv, cur, node.text, False, tag == FORMULA)
+        inFormula = FORMULA in cur and len(cur[FORMULA])
+        inSentence = cur.get(S, None) is not None
+        addText(cv, cur, node.text, inFormula, inSentence)
 
     # ------ begin walk through the children nodes ------
     for child in node:
@@ -597,8 +609,9 @@ def walkNode(cv, cur, node):
         tp = atts.get("type", None)
         if tp is None or tp == "para":
             pass
-        elif tp in {"opener", "closer", "address", "postscriptum"}:
+        elif tp in {OPENER, CLOSER, ADDRESS, POSTSCRIPTUM}:
             cv.terminate(cur[tp])
+            cur[tp] = None
         else:
             pass
 
@@ -607,6 +620,11 @@ def walkNode(cv, cur, node):
 
     if tag in NODE_ELEMENTS:
         curNode = cur[tag][-1]
+        if tag == P:
+            if sentenceFormation(cur):
+                curS = cur[S]
+                cv.terminate(curS)
+                cur[S] = None
         if curNode:
             cv.terminate(curNode)
             cur[tag].pop()
@@ -619,7 +637,9 @@ def walkNode(cv, cur, node):
     if tag in DO_TAIL_ELEMENTS:
         if tag == PB and not (P in cur and len(cur[P])) and not node.tail.strip():
             return
-        addText(cv, cur, node.tail, True, False)
+        inFormula = FORMULA in cur and len(cur[FORMULA])
+        inSentence = cur.get(S, None) is not None
+        addText(cv, cur, node.tail, inFormula, inSentence)
 
 
 # AUXILIARY
@@ -652,17 +672,40 @@ def getInt(feat, val):
     return (feat, int(stripVal)) if val.isdigit() else (f"{feat}str", val)
 
 
-def addText(cv, cur, text, after, inFormula):
+def sentenceFormation(cur):
+    return not any(cur.get(tag, None) for tag in (OPENER, CLOSER, ADDRESS))
+
+
+def doSentence(cv, cur, trans, punc):
+    lastChar = trans[-1]
+    if lastChar.lower() == lastChar:
+        if len(punc) > 1 and punc[0] == "." and punc[1] in {" ", ")", "»"}:
+            cv.terminate(cur[S])
+            cur["sNum"] += 1
+            newS = cv.node(S)
+            cv.feature(newS, n=cur["sNum"])
+            cur[S] = newS
+
+
+def addText(cv, cur, text, inFormula, inSentence):
     if not text:
         return
 
     if inFormula:
         formulaNode = cur[FORMULA][-1]
-        cv.feature(formulaNode, notation=text.strip("$"))
+        isTeX = cv.get("notation", formulaNode) == "TeX"
+        if isTeX:
+            cv.feature(formulaNode, tex=text.strip("$"))
         makeSlot(cv, cur, typ="formula", trans=text, punc=" ")
+        curWord = cur[WORD]
+        for tg in TEXT_ATTRIBUTES:
+            if cur.get(tg, None):
+                cv.feature(curWord, **{f"is{tg}": 1})
         return
 
     match = PUNC_RE.match(text)
+
+    # \.[^ <)»0-9.[a-zA-Z;,*\]:(&'-]
 
     if match:
         punc = match.group(1)
@@ -701,6 +744,8 @@ def addText(cv, cur, text, after, inFormula):
                 punc = punc.replace("\n", " ")
             makeSlot(cv, cur, trans=trans, punc=punc)
             curWord = cur[WORD]
+            if inSentence:
+                doSentence(cv, cur, trans, punc)
 
             for tg in TEXT_ATTRIBUTES:
                 if cur.get(tg, None):
