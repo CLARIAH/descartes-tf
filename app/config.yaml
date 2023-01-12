@@ -6,7 +6,7 @@ dataDisplay:
       method: layoutOrig
 docs:
   docPage: about
-  featureBase: 'https://github.com/{org}/{repo}/blob/master/docs/transcription{docExt}'
+  featureBase: 'https://github.com/{org}/{repo}/blob/main/docs/transcription{docExt}'
   featurePage: ''
 interfaceDefaults:
   showGraphics: true

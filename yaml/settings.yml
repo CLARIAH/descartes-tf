@@ -9,9 +9,9 @@ generic:
     Meguru Sasaki (École normale superieure d'Hokkaido);
     Takehumi Tokoro (University of Chyuo)
   institute: KNAW/Huygens Amsterdam
-  language: nld
+  language: fr, la, nl
   converters: Dirk Roorda (Text-Fabric)
-  sourceFormat: TEI
+  sourceFormat: ASCII, TEI
   descriptionTf: Critical edition with various variants
 
 slotType: word

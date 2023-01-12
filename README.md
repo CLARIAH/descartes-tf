@@ -1,5 +1,4 @@
 [![DOI](https://zenodo.org/badge/570809409.svg)](https://zenodo.org/badge/latestdoi/570809409)
-
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 ![descartes](docs/images/logo.png)
@@ -21,9 +20,9 @@ representation.
 
 The result can be readily loaded into Python programs for further processing.
 
-See [about](about.md) for the provenance of the data.
+See [about](docs/about.md) for the provenance of the data.
 
-See [transcription](transcription.md) for how the resulting data is modelled.
+See [transcription](docs/transcription.md) for how the resulting data is modelled.
 
 ## How to use
 
@@ -53,13 +52,13 @@ In both cases the data is downloaded and ends up in your home directory,
 under `text-fabric-data`.
 
 See also 
-[start](https://nbviewer.jupyter.org/github/CLARIAH/descartes-tei/blob/master/tutorial/start.ipynb)
+[start](https://nbviewer.jupyter.org/github/CLARIAH/descartes-tf/blob/main/tutorial/start.ipynb)
 and
-[search](https://nbviewer.jupyter.org/github/CLARIAH/descartes-tei/blob/master/tutorial/search.ipynb).
+[search](https://nbviewer.jupyter.org/github/CLARIAH/descartes-tf/blob/main/tutorial/search.ipynb).
 
 # Author
 
-See [about](about.md) for the authors/editors of the data.
+See [about](docs/about.md) for the authors/editors of the data.
 
 [Dirk Roorda](https://github.com/dirkroorda) is the author of the representation in Text-Fabric of the data,
 and the tutorials and documentation.
