@@ -1,5 +1,7 @@
 # descartes-tf
 
+[![DOI](https://zenodo.org/badge/570809409.svg)](https://zenodo.org/badge/latestdoi/570809409)
+
 Letters of Descartes in Text-Fabric with math display.
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
