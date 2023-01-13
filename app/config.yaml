@@ -39,7 +39,7 @@ typeDisplay:
     label: '{n}'
     condense: true
   figure:
-    label: '{url}'
+    features: url
     graphics: true
   formula:
     label: '{notation}'
