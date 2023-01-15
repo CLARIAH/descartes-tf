@@ -554,6 +554,7 @@ def walkNode(cv, cur, node):
             cv.feature(cur[P][-1], n=cur["pNum"])
             if sentenceFormation(cur):
                 newS = cv.node(S)
+                cur["sText"] = ""
                 cur["sNum"] = 1
                 cv.feature(newS, n=cur["sNum"])
                 cur[S] = newS
@@ -676,15 +677,87 @@ def sentenceFormation(cur):
     return not any(cur.get(tag, None) for tag in (OPENER, CLOSER, ADDRESS))
 
 
+TRIM_RE = re.compile(r"[0-9-.()\[\]«»:;,!?]")
+
+EXCLUDED_LAST_WORDS = set(
+    """
+    i
+    ii
+    iii
+    iv
+    v
+    vi
+    vii
+    viii
+    ix
+    x
+    xi
+    xii
+    xiii
+    xiv
+    xv
+    xvi
+    xvii
+    xviii
+    xix
+    xx
+    art
+    avant
+    cap
+    desc
+    etc
+    fig
+    fol
+    gen
+    ibid
+    joh
+    l
+    lettr
+    mr
+    ms
+    p
+    pag
+    princip
+    seq
+    tom
+    v
+""".strip().split()
+)
+
+
 def doSentence(cv, cur, trans, punc):
     lastChar = trans[-1]
-    if lastChar.lower() == lastChar:
-        if len(punc) > 1 and punc[0] == "." and punc[1] in {" ", ")", "»"}:
-            cv.terminate(cur[S])
-            cur["sNum"] += 1
-            newS = cv.node(S)
-            cv.feature(newS, n=cur["sNum"])
-            cur[S] = newS
+    lastText = f"{cur['sText']}{trans}"
+    lastTextLower = lastText.lower()
+    trimText = TRIM_RE.sub("", lastTextLower)
+    nTrim = len(trimText)
+    lastWords = trimText.split()
+    nWords = len(lastWords)
+    lastWord = lastWords[-1] if nWords else None
+
+    if (
+        nWords
+        and lastChar.lower() == lastChar
+        and len(punc) > 1
+        and punc[0] in {".", "!", "?"}
+        and punc[1] in {" ", ")", "»"}
+        and lastWord not in EXCLUDED_LAST_WORDS
+        and not (
+            lastWord == "part"
+            and (
+                "art." in lastTextLower or "articulis" in lastText or "Part" in lastText
+            )
+        )
+        and not (nTrim < 10 or nWords == 1 and nTrim < 20)
+    ):
+        cv.terminate(cur[S])
+        cur["sNum"] += 1
+        newS = cv.node(S)
+        cur["sText"] = ""
+        cv.feature(newS, n=cur["sNum"])
+        cur[S] = newS
+    else:
+        cur["sText"] += f"{trans}{punc}"
 
 
 def addText(cv, cur, text, inFormula, inSentence):
@@ -696,7 +769,7 @@ def addText(cv, cur, text, inFormula, inSentence):
         isTeX = cv.get("notation", formulaNode) == "TeX"
         if isTeX:
             cv.feature(formulaNode, tex=text.strip("$"))
-        makeSlot(cv, cur, typ="formula", trans=text, punc=" ")
+        makeSlot(cv, cur, typ="formula", trans=text, punc="")
         curWord = cur[WORD]
         for tg in TEXT_ATTRIBUTES:
             if cur.get(tg, None):
