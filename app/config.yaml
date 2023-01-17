@@ -35,9 +35,9 @@ typeDisplay:
     features: senderloc recipientloc
   p:
     label: '{n}'
+    condense: true
   sentence:
     label: '{n}'
-    condense: true
   figure:
     features: url
     graphics: true

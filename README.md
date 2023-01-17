@@ -13,7 +13,7 @@ In this repository we prepare the letters of
 for the application of data science.
 
 The source files are provided by the Huygens Institute, as the result of the CKCC project which was completed
-in 2012.
+in 2011.
 
 From there we converted it to a
 [Text-Fabric](https://github.com/annotation/text-fabric)
@@ -25,31 +25,57 @@ See [about](docs/about.md) for the provenance of the data.
 
 See [transcription](docs/transcription.md) for how the resulting data is modelled.
 
-## How to use
+## Quick start
 
-### Having Text-Fabric installed
+*   if you do not have
+    [Python](https://www.python.org)
+    installed, install it.
 
-This data can be processed by 
-[Text-Fabric](https://annotation.github.io/text-fabric/tf).
+*   if you do not have
+    [Text-Fabric](https://github.com/annotation/text-fabric)
+    installed, install it by opening a terminal/command line and saying:
 
-Text-Fabric will automatically download the corpus data.
+    ``` sh
+    pip install 'text-fabric[all]'
+    ```
 
-After [installing Text-Fabric](https://annotation.github.io/text-fabric/tf/about/install.html),
-you can start the Text-Fabric browser by this command
+    or, if you have it already, check whether an upgrade is available:
 
-```sh
-text-fabric CLARIAH/descartes-tei
-```
+    ``` sh
+    pip install --upgrade 'text-fabric[all]'
+    ```
 
-Alternatively, you can work in a Jupyter notebook and say
+*   Start the Text-Fabric browser, from the command line:
 
-```python
-from tf.app import use
+    ``` sh
+    text-fabric CLARIAH/descartes-tf
+    ```
 
-A = use('CLARIAH/descartes-tei')
-```
+    This will fetch the corpus and open a browser window where you can leaf through the
+    texts and make queries. 
+    Corpus information and Help are provided in the left side bar.
 
-In both cases the data is downloaded and ends up in your home directory,
+*   Alternatively, you can work in a Jupyter notebook:
+
+    ``` sh
+    pip install jupyterlab
+    ```
+
+    ``` sh
+    jupyter lab
+    ```
+
+    and inside the notebook, in a code cell, run
+
+    ``` python
+    from tf.app import use
+
+    A = use('CLARIAH/descartes-tei')
+    ```
+
+    which will also download the corpus.
+
+In both cases, the corpus ends up in your home directory,
 under `text-fabric-data`.
 
 See also 
