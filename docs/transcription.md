@@ -18,7 +18,7 @@ See also
 
 The corpus consists of letters, which are grouped in volumes.
 Letters are divided in paragraphs, some of which act as address, opener, closer, or
-postscriptum of the letter.
+postscriptum.
 
 Letters may contain illustrations, symbols, and mathematical formulas.
 
@@ -37,8 +37,8 @@ The purpose of adding sentences was to have a convenient
 division within paragraphs. This division can be used to
 display manageable chunks of the corpus.
 
-It can also be used to detect parallel passages, i.e. pieces
-where W.F. Hermans repeats himself.
+It can also be used to detect parallel passages, i.e. similar sentences
+in the correspondence.
 
 ## Text-Fabric model
 
@@ -63,8 +63,10 @@ this corpus we have node types for:
 [*letter*](#node-type-letter),
 [*volume*](#node-type-volume),
 
+Note that *slots* are nodes themselves.
+
 The type of every node is given by the feature
-[**otype**](https://annotation.github.io/text-fabric/tf/cheatsheet.html#f-node-features).
+[**otype**](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-node-feature-otype).
 Every node is linked to a subset of slots by
 [**oslots**](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-edge-feature-oslots).
 
@@ -83,27 +85,11 @@ and
 
 *(Keep this under your pillow)*
 
-## *absent*
-
-When we say that a feature is *absent* for a node, we mean that the node has no value
-for the feature. For example, if the feature `trans` is absent for node `n`, then
-`F.trans.v(n)` results in the Python value `None`, not the string `'None'`.
-
-In queries, you can test for absence by means of `#`:
-
-```
-word trans#
-```
-
-gives all lines where the feature `trans` is absent (these are all the Pāli words).
-
-See also
-[search templates](https://annotation.github.io/text-fabric/tf/about/searchusage.html)
-under **Value specifications**.
-
 ## Node type [*word*](#word)
 
-Basic unit containing a word plus attached non-word stuff such as punctuation,
+This is the slot type, i.e. the nodes of type `word` are the *slots*.
+
+Basic unit corresponding to a word plus attached non-word stuff such as punctuation,
 brackets, etc.
 
 feature | values | description
@@ -116,8 +102,12 @@ feature | values | description
 **issup** | `1` | indicates the word is in superscript
 **typ** | `empty` `formula` | indicates the kind of word
 
-* **typ** = `empty`: deliberately empty word, i.e. **trans** is empty or absent,
-  however, **punc** may contain something, typically a space
+### Remarks
+
+* **typ** = `empty`: deliberately empty word, i.e. **trans** is empty or absent;
+  however, **punc** may contain something, typically a space.
+* the **is**xxx features have only one possible value: `1`.
+  They can also be [absent](#absent).
 
 ## Node type [*hi*](#hi)
 
@@ -127,11 +117,15 @@ All words belonging to **hi** nodes have their special formatting
 recorded in the **is...** features, listed under
 [*word*](#node-type-word).
 
+Nodes of this type may be nested. They may also overlap without proper
+nesting. However, as the data is generated from XML, it is likely
+that all overlap occurs in the form of nesting.
+
 ## Node type [*figure*](#figure)
 
-Figures come in two kinds: symbols ans illustrations.
+Figures come in two kinds: symbols and illustrations.
 They are represented by an image.
-These nodes have an empty slot to link them to ac textual position.
+These nodes have an empty slot, which links them to textual positions.
 
 feature | values | description
 ------- | ------ | ------
@@ -141,7 +135,11 @@ feature | values | description
 ## Node type [*formula*](#formula)
 
 Mathematical formula in [TeX](https://en.wikipedia.org/wiki/TeX) notation.
-They will be rendered for display.
+They will be typeset by 
+[MathJax](https://www.mathjax.org)
+when being displayed.
+Note that in the Text-Fabric browser MathJax 3 is used, while in notebooks
+running Jupyterlab 3.5 MathJax 2 still rules.
 
 The TeX code sits in the **trans** feature of a single slot
 with **typ** = `formula` that belongs to the **formula** node.
@@ -210,7 +208,7 @@ feature | values | description
 
 Section level 2.
 
-Letter, numbered by **id**.
+Letter, identified by **id**.
 There is various metadata attached to letters,
 such as senders, recipients, dates, locations.
 
@@ -222,7 +220,7 @@ feature | values | description
 **cert** | `recipientloc:cert=high,senderloc:cert=high` | indication of certitude per feature
 **date** | `1619-01-24` | date of a letter
 **intermediary** | `Plempius:Vopiscus-Fortunatus:1601-1671` | intermediary in the transmission of a letter
-**language** | `fr` `la` `nl` `fr la` | languageentifier of a letter
+**language** | `fr`, `la`, `nl`, `fr la` | language identifier(s) of a letter
 **resp** | `recipientloc:resp=EJB,senderloc:resp=EJB` | indication of responsibility for the value of a feature (EJB = Erik-Jan Bos)
 **recipient** | `Beeckman:Isaac:1588-1637` | recipient of a letter
 **recipientloc** | `Middelburg, NL` | location of the recipient of a letter
@@ -239,6 +237,25 @@ feature | values | description
 ------- | ------ | ------
 **n** | `1` `2` | sequence number of a volume in the corpus.
 
+## Additional remark on feature values
+
+### absent
+
+When we say that a feature is *absent* for a node, we mean that the node has no value
+for that feature. For example, if the feature `isitalic` is absent for node `n`, then
+`F.isitalic.v(n)` results in the Python value `None`, not the string `'None'`.
+
+In queries, you can test for absence by means of `#`:
+
+```
+word trans#
+```
+
+gives all lines where the feature `trans` is absent.
+
+See also
+[search templates](https://annotation.github.io/text-fabric/tf/about/searchusage.html#value-specifications).
+
 # Text formats
 
 The following text formats are defined (you can also list them with `T.formats`).
@@ -252,5 +269,4 @@ The formats with `text` result in strings that are plain text, without additiona
 
 The formats with `layout` result in pieces html with css-styles;
 the richness of layout enables us to code more information
-in the plain representation, e.g. blurry characters when words are uncertain.
-We also use different colours for Pali and Latin.
+in the plain representation, e.g. italic words or marginal words.

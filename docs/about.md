@@ -21,6 +21,7 @@ is a file created in 1998 by
 This file is in a private ASCII encoding using characters 32-254, with identifier JAPAM.txt.
 
 It was received on CD by Erik-Jan Bos and in 2011 converted by
+
 * Erik-Jan Bos, then [Descartes Centre, University of Utrecht](http://www.descartescentre.com>)
 * Dirk Roorda, then [Data Archiving and Networked Services (DANS)](http://www.dans.knaw.nl/en>)
 
@@ -34,7 +35,7 @@ are taken from *Oeuvres de Descartes, 11 vols.,*,
 editor: Charles Adam et Paul Tannery, Paris, Vrin, 1896-1911.
 
 More information about this conversion is in this 
-[report](https://github.com/CLARIAH/descartes-tei/blob/master/docs/convert.md)
+[report](https://github.com/CLARIAH/descartes-tei/blob/master/docs/convert.md).
 
 ## From TEI to Text-Fabric
 
@@ -42,22 +43,22 @@ Because of the srtructured nature of TEI it was not very difficult or time consu
 migrate the result further to
 [Text-Fabric](https://github.com/annotation/text-fabric).
 
-Text-Fabric is a tool that helps to make a corpus computable.
+Text-Fabric is a tool that helps to make a corpus representation suitable for computing.
 It can be used in Jupyter notebooks and it has a built-in corpus browser.
-Both interfaces make use of a search engine that can look for structural patterns.
+Both interfaces
 
-Both interfaces also support the display of mathematical formulas.
-The display of illustrations is also supported.
+* make use of a search engine that can look for structural patterns;
+* support the display of illustrations and mathematical formulas.
 
-All in all this results in a tool by which users can read and research this
-corpus in a self contained way on their own computer.
+All in all this results in a tool by which users can research this
+corpus in a self-contained way on their own computer.
 
 See [transcription](transcription.md) for how the features of the TF data are defined.
 
 # Authors 
 
-[Erik-Jan Bos](https://nl.linkedin.com/in/erik-jan-bos-001)
-    Expert on Descartes and his works.
-    Found the source data, supplied additional metadata from his own database.
-[Dirk Roorda](https://pure.knaw.nl/portal/en/persons/dirk-roorda)
-    Expert in converting, wrote the conversion program and Text-Fabric.
+* [Erik-Jan Bos](https://nl.linkedin.com/in/erik-jan-bos-001)
+  Expert on Descartes and his works.
+  Found the source data, supplied additional metadata from his own database.
+* [Dirk Roorda](https://pure.knaw.nl/portal/en/persons/dirk-roorda)
+  Expert in text-conversion, wrote Text-Fabric.
