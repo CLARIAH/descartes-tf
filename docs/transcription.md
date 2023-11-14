@@ -66,15 +66,15 @@ this corpus we have node types for:
 Note that *slots* are nodes themselves.
 
 The type of every node is given by the feature
-[**otype**](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-node-feature-otype).
+[*`otype`*](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-node-feature-otype).
 Every node is linked to a subset of slots by
-[**oslots**](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-edge-feature-oslots).
+[*`oslots`*](https://annotation.github.io/text-fabric/tf/cheatsheet.html#special-edge-feature-oslots).
 
 Nodes can be annotated with features.
 Relations between nodes can be annotated with edge features.
 See the table below.
 
-Text-Fabric supports up to three customizable section levels.
+Text-Fabric supports up to three customisable section levels.
 In this corpus we define them as:
 [*volume*](#node-type-volume),
 [*letter*](#node-type-letter),
@@ -94,27 +94,27 @@ brackets, etc.
 
 feature | values | description
 ------- | ------ | ------
-**trans** | `quaestionem` | the string that makes up a word, without punctuation
-**punc** | `, ` | non-word characters after a word, including whitespace
-**isitalic** | `1` | indicates the word is in italics
-**ismargin** | `1` | indicates the word is in the margin
-**issub** | `1` | indicates the word is in subscript
-**issup** | `1` | indicates the word is in superscript
-**typ** | `empty` `formula` | indicates the kind of word
+*`trans`* | `quaestionem` | the string that makes up a word, without punctuation
+*`punc`* | `, ` | non-word characters after a word, including white-space
+*`isitalic`* | `1` | indicates the word is in italics
+*`ismargin`* | `1` | indicates the word is in the margin
+*`issub`* | `1` | indicates the word is in subscript
+*`issup`* | `1` | indicates the word is in superscript
+*`typ`* | `empty` `formula` | indicates the kind of word
 
 ### Remarks
 
-* **typ** = `empty`: deliberately empty word, i.e. **trans** is empty or absent;
-  however, **punc** may contain something, typically a space.
-* the **is**xxx features have only one possible value: `1`.
+* *`typ`* = `empty`: deliberately empty word, i.e. *`trans`* is empty or absent;
+  however, *`punc`* may contain something, typically a space.
+* the *`is`*xxx features have only one possible value: `1`.
   They can also be [absent](#absent).
 
 ## Node type [*hi*](#hi)
 
 Stretches of text with special formatting.
 This node type has no special features.
-All words belonging to **hi** nodes have their special formatting
-recorded in the **is...** features, listed under
+All words belonging to *`hi`* nodes have their special formatting
+recorded in the *`is...`* features, listed under
 [*word*](#node-type-word).
 
 Nodes of this type may be nested. They may also overlap without proper
@@ -129,8 +129,8 @@ These nodes have an empty slot, which links them to textual positions.
 
 feature | values | description
 ------- | ------ | ------
-**typ** | `symbol` `illustration` | the kind of image
-**url** | `cossic1.png` `AT1-101a.gif` | file name of the image
+*`typ`* | `symbol` `illustration` | the kind of image
+*`url`* | `cossic1.png` `AT1-101a.gif` | file name of the image
 
 ## Node type [*formula*](#formula)
 
@@ -139,19 +139,19 @@ They will be typeset by
 [MathJax](https://www.mathjax.org)
 when being displayed.
 Note that in the Text-Fabric browser MathJax 3 is used, while in notebooks
-running Jupyterlab 3.5 MathJax 2 still rules.
+running JupyterLab 3.5 MathJax 2 still rules.
 
-The TeX code sits in the **trans** feature of a single slot
-with **typ** = `formula` that belongs to the **formula** node.
+The TeX code sits in the *`trans`* feature of a single slot
+with *`typ`* = `formula` that belongs to the *`formula`* node.
 
 It also is contained, without the surrounding `$`s, in the feature
-**notation** of the **formula** node.
+*`notation`* of the *`formula`* node.
 This gives you the opportunity to view the source code of formulas.
 
 feature | values | description
 ------- | ------ | ------
-**notation** | `TeX` | notation method of the formula
-**tex** | `A\over B` | TeX source code of a formula
+*`notation`* | `TeX` | notation method of the formula
+*`tex`* | `A\over B` | TeX source code of a formula
 
 ## Node type [*sentence*](#sentence)
 
@@ -161,7 +161,7 @@ e.g. in abbreviations and numbers.
 
 feature | values | description
 ------- | ------ | ------
-**n** | `1` `2` | sequence number of a sentence within the paragraph.
+*`n`* | `1` `2` | sequence number of a sentence within the paragraph.
 
 ## Node type [*head*](#head)
 
@@ -193,8 +193,8 @@ Paragraph.
 
 feature | values | description
 ------- | ------ | ------
-**n** | `1` `2` | sequence number of a paragraph within the letter
-**level** | `2` `3` | level of a paragraph when it acts like a heading
+*`n`* | `1` `2` | sequence number of a paragraph within the letter
+*`level`* | `2` `3` | level of a paragraph when it acts like a heading
 
 ## Node type [*page*](#page)
 
@@ -202,30 +202,30 @@ Page in the printed edition.
 
 feature | values | description
 ------- | ------ | ------
-**n** | `1` `2` | sequence number of a page within the volume
+*`n`* | `1` `2` | sequence number of a page within the volume
 
 ## Node type [*letter*](#letter)
 
 Section level 2.
 
-Letter, identified by **id**.
+Letter, identified by *`id`*.
 There is various metadata attached to letters,
 such as senders, recipients, dates, locations.
 
 feature | values | description
 ------- | ------ | ------
-**id** | `1049` | identifier of a letter
-**alt_id** | `AM1-005-002,AT,EJB010` | alternative identifiers of a letter
-**alt_date** | `1639` | alternative date of a letter
-**cert** | `recipientloc:cert=high,senderloc:cert=high` | indication of certitude per feature
-**date** | `1619-01-24` | date of a letter
-**intermediary** | `Plempius:Vopiscus-Fortunatus:1601-1671` | intermediary in the transmission of a letter
-**language** | `fr`, `la`, `nl`, `fr la` | language identifier(s) of a letter
-**resp** | `recipientloc:resp=EJB,senderloc:resp=EJB` | indication of responsibility for the value of a feature (EJB = Erik-Jan Bos)
-**recipient** | `Beeckman:Isaac:1588-1637` | recipient of a letter
-**recipientloc** | `Middelburg, NL` | location of the recipient of a letter
-**sender** | `Descartes:Rene:1596-1650` | sender of a letter
-**senderloc** | `Egmond aan den Hoef, NL` | location of the sender of a letter
+*`id`* | `1049` | identifier of a letter
+*`alt_id`* | `AM1-005-002,AT,EJB010` | alternative identifiers of a letter
+*`alt_date`* | `1639` | alternative date of a letter
+*`cert`* | `recipientloc:cert=high,senderloc:cert=high` | indication of certitude per feature
+*`date`* | `1619-01-24` | date of a letter
+*`intermediary`* | `Plempius:Vopiscus-Fortunatus:1601-1671` | intermediary in the transmission of a letter
+*`language`* | `fr`, `la`, `nl`, `fr la` | language identifier(s) of a letter
+*`resp`* | `recipientloc:resp=EJB,senderloc:resp=EJB` | indication of responsibility for the value of a feature (EJB = Erik-Jan Bos)
+*`recipient`* | `Beeckman:Isaac:1588-1637` | recipient of a letter
+*`recipientloc`* | `Middelburg, NL` | location of the recipient of a letter
+*`sender`* | `Descartes:Rene:1596-1650` | sender of a letter
+*`senderloc`* | `Egmond aan den Hoef, NL` | location of the sender of a letter
 
 ## Node type [*volume*](#volume)
 
@@ -235,7 +235,7 @@ Paragraph.
 
 feature | values | description
 ------- | ------ | ------
-**n** | `1` `2` | sequence number of a volume in the corpus.
+*`n`* | `1` `2` | sequence number of a volume in the corpus.
 
 ## Additional remark on feature values
 
@@ -267,6 +267,6 @@ format | description
 
 The formats with `text` result in strings that are plain text, without additional formatting.
 
-The formats with `layout` result in pieces html with css-styles;
+The formats with `layout` result in pieces HTML with CSS-styles;
 the richness of layout enables us to code more information
 in the plain representation, e.g. italic words or marginal words.

@@ -15,7 +15,7 @@ The source data
 is a file created in 1998 by
 
 * Katsuzo Murakami (University of Tokyo)
-* Meguru Sasaki (École normale superieure d'Hokkaido)
+* Meguru Sasaki (École Normale Supérieure d'Hokkaido)
 * Takehumi Tokoro (University of Chyuo) 1998
 
 This file is in a private ASCII encoding using characters 32-254, with identifier JAPAM.txt.
@@ -39,7 +39,7 @@ More information about this conversion is in this
 
 ## From TEI to Text-Fabric
 
-Because of the srtructured nature of TEI it was not very difficult or time consuming to
+Because of the structured nature of TEI it was not very difficult or time consuming to
 migrate the result further to
 [Text-Fabric](https://github.com/annotation/text-fabric).
 
